@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+
+
+li {
+    display: inline-block; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;	  
+}
+
+#red {
+    background-color: red;
+    margin-left: 625pt;
+}
+
+#green {
+	background-color: green;
+}
+
+#blue {
+	background-color: rgb(74, 220, 240);
+}
+
+#formName {
+    margin-left: 600pt;
+}
+
+#gif {
+    margin-top: 50pt;
+    margin-left: 530pt;
+    width: 480px;
+    height: 360px;
+    transform: rotate(0deg);
+}
+
+#gif:hover{   
+    width: 5px;
+    height: 5px;
+    transition: 5s ease;
+}
+
+#gif:active {   
+    transform: rotate(90deg);
+    transition: 2s;
+}
