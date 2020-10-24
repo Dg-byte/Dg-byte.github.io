@@ -1,10 +1,23 @@
 #b {
     background-color: crimson;
 }
+#logo {
+    margin-top: 10pt;
+}
 
+#textlogo {
+    margin-top: 10pt;
+}
 #ipad {
     width: 300pt;
     height: 450pt;
+    margin-left: 18pt;
+    margin-top: 40pt;
+    margin-bottom: 50pt;
+}
+
+#infa {
+    margin-top: 100pt;
 }
 
 i{
@@ -14,4 +27,45 @@ i{
     display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+#haracteristiki {
+    width: 520pt; 
+    text-align: center; 
+    font-size: 20pt; 
+    margin-left: 30%; 
+    margin-top: 50pt;
+}
+
+#podharacter {
+    width: 520pt; 
+    text-align: center; 
+    font-size: 15pt; 
+    margin-left: 30%;
+}
+
+#right{
+    margin-left: 40pt;
+}
+#bg{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sp-field {
+    margin-left: 43%;
+    width: 135pt;
+    margin-top: 40pt; 
+}
+
+#contactus {
+    color:cyan; 
+    text-align: center; 
+    margin-top: 100pt
+}
+
+#contact {
+    color: white; 
+    margin-top: 100pt;
 }
