@@ -1,7 +1,11 @@
-#b {
-    background-color: crimson;
-}
+/* Основная странциа */
 
+#body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    color: 000;
+}
 
 #logo {
     margin-top: 10pt;
@@ -71,25 +75,10 @@ i{
     color: white; 
     margin-top: 100pt;
 }
+  /* Галерея */ 
 
-@media (max-width: 425px) {
-	#first_block {
-		text-align: center;
-	}
-
-	#im1_g img {
-	height: 360px;
-	width: 100%;
-	margin-bottom: 45px;
-	margin-left: 0;
-	}
-
-	#im2_g img {
-    	height: 360px;
-		width: 100%;
-		margin-bottom: 45px;
-		margin-left: 0;
-	}
+#picture {
+    margin-bottom: 50pt;
 }
 
 .gallery-section>div>div:nth-child(2)>div:nth-child(1) {
@@ -103,6 +92,7 @@ i{
 .im {
     width: 17.5rem;
     height: 11.25rem;
+
 }
 
 .footer-gallery p {
@@ -139,8 +129,6 @@ i{
 .footer-gallery>div>div>div {
     justify-content: center;
 }
-
-/* Медиа */
 
 @media screen and (max-width: 1201px) {
     /* Main */
@@ -207,6 +195,7 @@ i{
     background-image: url(img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 5rem;
 }
 
 #carousel {
