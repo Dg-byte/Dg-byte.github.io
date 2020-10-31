@@ -11,30 +11,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  
+
   
   <body >
     <div id="bg">
 
-      <nav class="container" id="header">
-        <div class="row">
-          <div class="col-1" id="lgcon">
-            <img src="img/logo.png" id="logo">
-          </div>
-        <div class="col-5">
+      <div class="container" id="header">
+				<div class="row">
+					<div class="col-1" id="logo">
+						<img class="mt-2" src="img/logo.png">
+          </div>        
+          <div class="col-5">
           <h2 id="textlogo">Логотип</h2>
-        </div>
-        <div class="col-6" id="navbar">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <ul class="navbar-nav">
-                <li class="nav-item " ><a href="" class="nav-link">Преимущества</a></li>
-                <li class="nav-item "><a href="" class="nav-link">Галерея</a></li>
-                <li class="nav-item "><a href="" class="nav-link">Contact us</a></li>
-              </ul>
-          </nav>
-        </div>
-        </div>
-      </nav>
+        </div>  
+					<div class="col-lg-6">
+						<nav id="menu" role="navigation" class="navbar navbar-expand-sm">
+							<button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+							<span class="navbar-toggler-icon"></span>   
+							</button>
+						  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+							  <ul class="navbar-nav">
+								  <li class="nav-item ml-5">
+								  	<a class="nav-link" href="#info" style="color:black"><i>Приемущества</i></a>
+							  	</li>
+							  	<li class="nav-item ml-5">
+								  	<a class="nav-link" href="gallery.html" style="color:black"><i>Галерея</i></a>
+							  	</li>
+							  	<li class="nav-item ml-4">
+						  			<a class="nav-link" href="#footer" style="color:black"><i>Contact_us</i></a>
+						  		</li>
+							</ul>
+						</div>      
+						</nav>
+					</div>
+				</div>
+			</div>
 
 
      <section id="banner">
@@ -124,7 +135,7 @@
       </section>
 
 
-  <footer class="page-footer font-small pt-4" style="background-color: black; margin-top: 80pt; height: 580px;">
+  <footer  id="footer" class="page-footer font-small pt-4" style="background-color: black; margin-top: 80pt; height: 580px;">
     <h3 id="contactus">Свяжитесь с нами</h3>
     <h5 id="email" style="color: rgb(179, 63, 59); text-align: center; margin-top: 10pt;">Оставьте свой e-mail адрес и мы свяжемся с вами в ближайшее время.</h5>
     <div id="email" class="form-inline">
